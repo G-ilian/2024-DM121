@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Dialog</title>
+</head>
+<body>
+    <h1>HTML5 dialog</h1>
+    <button onclick="myDialog.showModal()" >Show dialog</button>
+    <dialog id="myDialog">
+        <main>
+            <h2>Dialog Test</h2>
+            <p>This is a dialog.</p>
+            <button onclick="myDialog.close('1')">Close</button>  
+            <button onclick="myDialog.close('2')">Confirm</button>
+        </main>
+    </dialog>
+</body>
+</html>
